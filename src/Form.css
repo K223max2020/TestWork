@@ -1,0 +1,212 @@
+.Form{
+
+    display: grid;
+    grid-template-columns:  4fr 2fr ;
+}
+.Choice{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    display: ;
+}
+.numname{
+    display: flex;
+    flex-direction: row;
+}
+.number{
+    border: black 1px solid;
+    border-radius: 50%;
+    width: 24px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    margin-right: 20px;
+}
+.one{
+    border: black 1px solid;
+    border-radius: 4px;
+    width: 428px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    padding-left: 20px;
+
+}
+.one input{
+    margin-right: 20px;
+}
+
+.two{
+    border: black 1px solid;
+    border-radius: 4px;
+    width: 428px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.two input{
+    margin-right: 20px;
+}
+.button{
+    background-color: rgb(40, 40, 185);
+    width: 448px;
+    height: 48px; 
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.Otvet{
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Data{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.numname2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.Pname1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Pname1 input{
+    width: 448px;
+    height: 48px;
+}
+.Pname2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Pname2 input{
+    width: 448px;
+    height: 48px;
+}
+.Pname3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Pname3 input{
+    width: 448px;
+    height: 48px;
+}
+.Pname4{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Pname4 input{
+    width: 448px;
+    height: 48px;
+}
+.Pname5{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Pname5 input{
+    width: 448px;
+    height: 48px;
+}
+.Passport{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Passport input{
+    width: 448px;
+    height: 48px;
+}
+.PassportNumber{
+    display: flex;
+    flex-direction: row;
+    width: 448px;
+}
+.PassportNumber input{
+    width: auto;
+    height: 48px;
+
+}
+.PassportWhen{
+    display: flex;
+    flex-direction: row;
+    width: 448px;
+    margin-bottom: 20px;
+}
+.PassportWhen input{
+    width: auto;
+    height: 48px;
+
+}
+.Consent{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.numname3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.list{
+    width: 448px;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.check input{
+    margin: 20px;
+}
+.Finish{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.buttonB{
+    background-color: rgb(40, 40, 185);
+    width: 256px;
+    height: 48px; 
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+.buttonW{
+    background-color: aliceblue;
+    width: 256px;
+    height: 48px; 
+    color: rgb(40, 40, 185);
+    margin-bottom: 20px;
+}
+

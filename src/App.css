@@ -1,0 +1,81 @@
+.App {
+  width: 1440px;
+}
+
+.App-header {
+  min-width: 1120px;
+  height: 88px;
+  position: relative;
+  background-color:rgb(59, 59, 187);
+  display: grid;
+  grid-template-columns:  4fr 2fr ;
+   
+}
+.App-logo {
+  padding: 10px;
+}
+.header-left { 
+  display: inline;
+  grid-column: 1/2;
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.header-right{
+  grid-column:2/3 ;
+  display: inline;
+  margin-right: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}.header-right a{
+  color: aliceblue;
+}
+
+.App-link {
+  color: aliceblue;
+  grid-column: 2/3;
+}
+
+.Users-img{
+  padding: 10px;
+}
+.User{
+  padding: 10px;
+}
+.Exit{
+  padding: 10px;
+}
+.content{
+  display: grid;
+  grid-template-columns:  4fr 2fr ;
+  padding-left: 160px;
+  grid-column: 1/2;
+
+}
+.content h1{
+    padding-top: 80px;
+
+}
+.content p{
+  grid-column: 1/2;
+}
+.content img{
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-left: 180px;
+}
+.Link {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
